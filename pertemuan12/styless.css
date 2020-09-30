@@ -1,0 +1,68 @@
+/* p{
+    color: blue;
+}
+
+p.error{
+    color: red;
+}
+
+p.success.feedback{
+    color: green;
+    border: 5px solid black
+} */
+
+div .error {
+    /*
+        Mengambil semua class error di dalam div.
+        Jika tidak memakai spasi dalam div .error seperti div.error maka akan mengambil semua div yg memiliki class error 
+     */
+    color: red;
+}
+
+#container {
+    /* harus unik */
+    background-color: lightgray;
+}
+
+a[href]{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+a[href="www.facebook.com"]{
+    background-color: green ;
+}
+
+a[href*="google"] {
+    background-color: hotpink;
+}
+
+a[href$=".ac.id"] {
+    background-color: indigo;
+}
+
+h2:hover{
+    color: lightblue;
+    background-color: black;
+}
+
+p::selection{
+    color: black;
+    background-color: white;
+}
+
+a::after{
+    /*
+    Menaruh sebuah konten setelah element trsbt 
+     */
+    content: " after -";
+}
+
+a::before{
+    /*
+    Menaruh sebuah konten sebelum element trsbt 
+     */
+    content: "Before-";
+}
