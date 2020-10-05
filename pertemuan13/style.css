@@ -1,0 +1,40 @@
+/* img {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+} */
+
+
+img{
+    display: block;
+}
+
+img.smile{
+    background-color: lightskyblue;
+    border: 10px solid red;
+}
+
+img.confused{
+    background-color: lightskyblue;
+
+    border: 10px solid red;
+}
+
+img.angry{
+    background-color: lightskyblue;
+    border: 10px solid red;
+}
+
+div{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.divconfused{
+    padding-left: 140px;
+}
+div.divangry{
+    padding-left: 280px;
+}
