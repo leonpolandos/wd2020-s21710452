@@ -29,7 +29,7 @@
 // console.log("Angka yang anda masukan adalah :" + angka);
 
 /*
-EXERCISE :
+EXERCISE #7 :
     Buatlah program javaScirpt untuk menghitung BMI (Body mass index)
     Rumus = berat (kg) / tinggi + tinggi)
 
